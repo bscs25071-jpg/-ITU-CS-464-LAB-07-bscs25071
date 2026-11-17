@@ -5,6 +5,9 @@
 ## Demo Video
 You can watch the complete walkthrough of all 10 screens, button interactions, and navigation transitions here:  
 [Watch Demo Video](https://drive.google.com/file/d/1V5RDsWyHJ0y0YZzt9VUNt50_KUckVOnU/view?usp=sharing)
+## Windows Build (Standalone)
+Download and extract the ZIP archive, then run `bscs25071_LAB07.exe` to test the standalone build:  
+[Download Windows Build (ZIP)](https://drive.google.com/file/d/1bGE9ZO4UM2MB2WNsqfZlyKN6hOjtl7tT/view?usp=sharing)
 ## Design Overview
 - **Target Resolution & Scaling:** Built for a **1080 × 1920** portrait mobile screen. The Canvas uses `Scale With Screen Size` (match set to `0.5`) along with a custom `SafeArea` script so the UI fits properly on different phone aspect ratios and notched displays.
 - **Color Palette:** Used a dark navy background (`#0B132B`) so bright UI elements stand out easily. Primary actions like `PLAY` and `NEXT LEVEL` use warm amber (`#FFB400`), secondary buttons use royal blue (`#4B5BFF`), and back/destructive actions use crimson (`#F2435D`).
